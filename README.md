@@ -38,6 +38,9 @@ The EmoRoBERTa model used in SentiSYS has been fine-tuned on a sentiment analysi
 
 Overall, EmoRoBERTa is a powerful transformer-based model that leverages pre-training and fine-tuning techniques to perform sentiment analysis with high accuracy and efficiency. It forms the backbone of the SentiSYS project, enabling real-time sentiment analysis on both text and speech inputs.
 
+## Link to the model below (All rights to their respective owners of external elements/models/modules used in this project):
+https://huggingface.co/arpanghoshal/EmoRoBERTa
+
 # Run it locally
 
 1. Clone the repository.
