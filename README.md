@@ -48,3 +48,6 @@ https://huggingface.co/arpanghoshal/EmoRoBERTa
 1. Clone the repository.
 2. Go to root directory and run `pip install -r requirements.txt`.
 3. Run `python run.py [mic/text]` Choose whether to use mic or text.
+
+# Screenshot (Terminal window to show working)
+![proof](https://github.com/ManavvGarg/SentiSYS/assets/58691392/4f999bd9-bec1-4b1a-83f9-6ea672a50262)
