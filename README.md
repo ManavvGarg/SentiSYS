@@ -1,6 +1,6 @@
 # SentiSYS 🤖 - Real-time Speech Sentiment Analysis
 
-**Brief:**
+## Brief:
 SentiSYS is a real-time sentiment analysis tool that utilizes EmoRoBERTa, a pre-trained transformer-based model, to perform sentiment analysis on both text and speech inputs. The tool allows users to interact with it using two input methods: microphone and text. Users can speak or type their text, and SentiSYS will analyze the sentiment, providing the emotional tone as "positive," "neutral," or "negative." The tool integrates a robust speech recognition system, enabling users to use their voice to convey sentiments. It also demonstrates the power of transformer-based models in natural language processing tasks, such as sentiment analysis.
 
 **Importance of Sentiment Analysis:**
