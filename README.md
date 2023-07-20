@@ -23,7 +23,7 @@ The tool integrates a robust speech recognition system, enabling users to use th
 
 7. **Customer Support:** Sentiment analysis can be integrated into customer support systems to automatically classify customer queries based on their sentiment. It allows support teams to prioritize and address critical issues promptly.
 
-## Why nad What is EmRoBERTa?
+## What is EmRoBERTa?
 The model used in the SentiSYS project is called "EmoRoBERTa," which is a variant of the RoBERTa model specifically fine-tuned for sentiment analysis tasks. Let's break down the components of this model:
 
 RoBERTa (Robustly Optimized BERT): RoBERTa is a transformer-based language model introduced by Facebook AI. It is built upon the BERT (Bidirectional Encoder Representations from Transformers) architecture. RoBERTa employs a large-scale unsupervised pretraining process, significantly improving the performance of BERT by optimizing hyperparameters, training data size, and training duration.
