@@ -30,7 +30,9 @@ RoBERTa (Robustly Optimized BERT): RoBERTa is a transformer-based language model
 
 Tokenizer: The EmoRoBERTa model uses the "RobertaTokenizerFast" from the Hugging Face library. The tokenizer converts raw text into input tensors that can be processed by the EmoRoBERTa model. It splits the text into subwords, adds special tokens, and encodes them in a format suitable for the transformer model.
 
-TFRobertaForSequenceClassification: This is the specific variant of the RoBERTa model used for sentiment analysis. It has a classification head attached to the pre-trained RoBERTa base, allowing it to predict sentiment labels based on input text. In this case, the classification head consists of three output units corresponding to the sentiment labels "positive," "neutral," and "negative."
+TFRobertaForSequenceClassification: This is the specific variant of the RoBERTa model used for sentiment analysis. It has a classification head attached to the pre-trained RoBERTa base, allowing it to predict sentiment labels based on input text. In this case, the classification head consists of three output units corresponding to the sentiment labels such as:
+
+`admiration, amusement, anger, annoyance, approval, caring, confusion, curiosity, desire, disappointment, disapproval, disgust, embarrassment, excitement, fear, gratitude, grief, joy, love, nervousness, optimism, pride, realization, relief, remorse, sadness, surprise and neutral.` 
 
 Pipeline: The Hugging Face library's "pipeline" function allows easy access to pre-trained models for specific tasks. In this case, the model is accessed using the "pipeline('sentiment-analysis', model='arpanghoshal/EmoRoBERTa')" command. It provides a convenient interface for performing sentiment analysis directly on the input text.
 
